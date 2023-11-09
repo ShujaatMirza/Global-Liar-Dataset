@@ -1,17 +1,20 @@
 # Global-Liar-Dataset
 
-## Overview
-Briefly describe what the Global-Liar dataset is and what it is for. Mention the key features and any unique aspects it may have.
-
 ## Dataset Description
-Provide detailed information on the dataset including the dimensions, the type of data it contains, and the format of the data files.
+The Global-Liar dataset is a curated collection of statements that are regionally, label-, and cut-off-date balanced. This dataset comprises both true and false statements, all published before and after the OpenAI training cut-off date for models in September 2021. It is crafted to circumvent potential biases from datasets possibly used in model fine-tuning and to address the prevalent Western-centric focus of existing datasets.
+
+### Key Features
+- **Balance**: Ensures equal representation of six global regions: Africa, Asia-Pacific, Europe, Latin America, North America, and the Middle East.
+- **Diversity**: Contains 100 statements from each region, amounting to a broad spectrum of perspectives.
+- **Temporal Relevance**: Includes statements from periods before and after the widely recognized AI training cut-off, enhancing its relevance for current models.
+- **Evaluation**: Designed for a nuanced and comprehensive evaluation of fact-checking performance of AI models, particularly those beyond Western datasets.
+
+The dataset’s structure allows for comprehensive assessments across different dimensions, such as regional veracity and temporal relevance, offering a unique resource for advancing fact-checking AI research.
 
 ### Contents
 - `data/`: This directory contains the dataset files.
 - `scripts/`: This directory contains scripts for processing or analyzing the dataset.
 
-## Getting Started
-Include step-by-step instructions on how to obtain and use the dataset.
 
 ## Contribution
 Contributions to the Global-Liar dataset are welcome. To contribute, please follow the guidelines in the `CONTRIBUTING.md` file.
@@ -25,7 +28,16 @@ If you use the Global-Liar dataset in your research, please use the following ci
 ```bibtex
 @misc{global_liar_2023,
   title={Trustworthiness of LLMs in Fact-Checking: Stability \& Factuality of GPT Models over Time and Geographic Regions},
-  author={[Shujaat Mirza, Bruno Coelho, Yuyuan Cui, Christina P ̈opper, Damon McCoy]},
+  author={[Shujaat Mirza, Bruno Coelho, Yuyuan Cui, Christina Poepper, Damon McCoy]},
   year={2023},
   publisher={arXiv}
 }
+```
+
+
+## Contact
+
+For questions and feedback, please open an issue in the GitHub repository or contact us directly at ...
+
+
+
