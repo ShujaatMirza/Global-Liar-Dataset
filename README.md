@@ -13,7 +13,9 @@ The dataset’s structure allows for comprehensive assessments across different 
 
 ### Contents
 - `data/`: This directory contains the dataset files.
+-- The dataset file "600_statements.tsv" contains 600 statements, balanced across regions/misinformation labels/time.
 - `scripts/`: This directory contains scripts for processing or analyzing the dataset.
+-- The Python notebook "demo_load_dataset.ipynb" contains a demo for loading the dataset.
 
 
 ## Contribution
