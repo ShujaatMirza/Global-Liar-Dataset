@@ -12,10 +12,8 @@ The Global-Liar dataset is a curated collection of statements that are regionall
 The dataset’s structure allows for comprehensive assessments across different dimensions, such as regional veracity and temporal relevance, offering a unique resource for advancing fact-checking AI research.
 
 ### Contents
-- `data/`: This directory contains the dataset files.
--- The dataset file "600_statements.tsv" contains 600 statements, balanced across regions/misinformation labels/time.
-- `scripts/`: This directory contains scripts for processing or analyzing the dataset.
--- The Python notebook "demo_load_dataset.ipynb" contains a demo for loading the dataset.
+- `data/`: This directory contains the dataset files. The dataset file "600_statements.tsv" contains 600 statements, balanced across regions/misinformation labels/time.
+- `scripts/`: This directory contains scripts for processing or analyzing the dataset. The Python notebook "demo_load_dataset.ipynb" contains a demo for loading the dataset.
 
 
 ## Contribution
